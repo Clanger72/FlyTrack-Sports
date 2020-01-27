@@ -1,0 +1,44 @@
+.bg_video{
+    position: fixed; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -1000;
+    background: url('img/voo.jpg') no-repeat;
+    background-size: cover; 
+}
+
+.pulse {
+    animation: pulse 0.7s infinite;
+    margin: 0 auto;
+    display: table;
+    margin-top: 10px;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    }
+
+    @-webkit-keyframes pulse {
+        0% {
+            -webkit-transform: scale(1);
+            -webkit-filter: brightness(100%);
+        }
+        100% {
+            -webkit-transform: scale(1.1);
+            -webkit-filter: brightness(200%);
+        }
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+            filter: brightness(100%);
+        }
+        100% {
+            transform: scale(1.1);
+            filter: brightness(200%);
+        }
+    }

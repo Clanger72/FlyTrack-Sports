@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html leng='pt-br'>
+    <head>
+        <meta charset="utf-8">
+        <style>
+
+            body{
+            padding-top: 5em; 
+            }
+            svg{
+                width: 33.32%;
+                float: left;
+            }
+            .adobe-logo{
+                stroke: #fee16e;
+            }
+            .adobe-logo:hover {
+                fill: transparent;
+                stroke-width: 8;
+                -webkit-animation-play-state: running;
+                -moz-animation-play-state: running;
+                -ms-animation-play-state: running;
+                -o-animation-play-state: running;
+                animation-play-state: running;
+            }
+            .adobe-logo{
+                transition: .3s ease-out;
+            }
+
+            .logo {
+            color: #000;
+            font-family: "Arial";
+            width: 400px;
+            height: 140px; 
+            position:relative;
+            }
+            .nome{
+                font-size: 50px;
+                line-height: 105%;
+                position: absolute;
+                right: 0;
+                top: 12px;
+                left: 21%;
+            }
+            .symbol{
+                font-size: 70px;
+                line-height: 105%;
+                position: absolute;
+                right: 0;
+                left: 2%;
+            }
+            .symbol1{
+                font-size: 70px;
+                line-height: 105%;
+                position: absolute;
+                right: 0;
+                left: 90%;
+            }
+            .slogan {
+            font-size: 30px;
+            position:absolute;
+            right: 4px;
+            top: 102px;   
+            }
+
+            .spiralContainer {
+            border-radius: 50%;
+            width:200px;
+            height:200px;
+            overflow:hidden;
+            margin:30%;
+            
+            -webkit-animation: spin 3s linear 0s infinite reverse;
+            -moz-animation: spin 3s linear 0s infinite reverse;  
+            -ms-animation: spin 3s linear 0s infinite reverse;
+            -o-animation: spin 3s linear 0s infinite reverse;
+            animation: spin 3s linear 0s infinite reverse;
+            
+            -webkit-animation-play-state: paused;
+            -moz-animation-play-state: paused;
+            -ms-animation-play-state: paused;
+            -o-animation-play-state: paused;  
+            animation-play-state: paused;
+            }
+            .spiral {
+            width:200px;
+            height:200px;
+            border-radius: 50%;
+            background-image: url(http://farm7.staticflickr.com/6115/6319704650_0a2bd0dcef_o.jpg);
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+            
+            
+            -webkit-animation: spin 6s linear 0s infinite normal;
+            -moz-animation: spin 6s linear 0s infinite normal;
+            -ms-animation: spin 6s linear 0s infinite normal;
+            -o-animation: spin 6s linear 0s infinite normal;
+            animation: spin 6s linear 0s infinite normal;
+            }
+            .spiralContainer:hover {
+            -webkit-animation-play-state: running;
+            -moz-animation-play-state: running;
+            -ms-animation-play-state: running;
+            -o-animation-play-state: running;
+            animation-play-state: running;
+            }
+            @keyframes spin {
+            0% { transform: rotate(360deg); }
+            100% { transform: rotate(0deg); }
+            }
+            @-webkit-keyframes spin {
+            0% {-webkit-transform: rotate(360deg); }
+            100% { -webkit-transform: rotate(0deg); }
+            }
+            @-ms-keyframes spin {
+            0% {-ms-transform: rotate(360deg); }
+            100% { -ms-transform: rotate(0deg); }
+            }
+            @-moz-keyframes spin {
+            0% { -moz-transform: rotate(360deg); }
+            100% { -moz-transform: rotate(0deg); }
+            }
+            @-o-keyframes spin {
+            0% { -o-transform: rotate(360deg); }
+            100% { -o-transform: rotate(0deg); }
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div class="logo">
+            <div class="symbol">>></div>
+            <div class="nome">FLAYTRACK</div>
+            <div class="symbol1"><<</div>
+            <div class="slogan">ensino e inovação</div>
+         </div>
+
+         <svg viewBox='0 0 105 93' xmlns='http://www.w3.org/2000/svg'>
+            <path class='adobe-logo' d='M66, 0h39v93zM38, 0h-38v93zM52, 35120, 58h-161-8-18h-18z' fill='#ED1C24'/>
+         </svg>
+
+         <div class='spiralContainer'><div class='spiral'></div></div>
+    </body>
+
+</html>
