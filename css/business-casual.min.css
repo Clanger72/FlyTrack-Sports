@@ -5,6 +5,8 @@
  */body{
      font-family:Lora;
      background: white;
+     max-width: 100%;
+     width: auto;
      /*-webkit-gradient(linear,left top,left bottom,from(rgba(120, 161, 194, 0.2))),url(../img/voo.jpg) no-repeat;
      background:linear-gradient(rgba(120, 161, 194, 0.2)),url(../img/voo.jpg) no-repeat;*/
      background-attachment:fixed;
