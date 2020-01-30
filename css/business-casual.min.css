@@ -296,7 +296,7 @@ p{
 .footer{
     width: 100%;
     height: auto;
-    background-color:transparent;
+    background-color:rgba(255,255,255,.4);
     vertical-align: inherit;
     padding: -80%;
 }
@@ -351,7 +351,7 @@ p{
     width: 3.5%;
 }
 
-.footer .intro-img-local-3{
+.footer .intro-img-local1{
     position: relative;
     left: -2.5%;
     width: 2%;
