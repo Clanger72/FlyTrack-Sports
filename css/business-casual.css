@@ -103,41 +103,85 @@ p {
   font-family: 'Raleway';
 }
 
+*Facebock*/
+#mainNav .navbar-nav .nav-item .nav-link-img{   
+    left: 90%; 
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link-img img{
+    width:100%;
+}
+
+
+/*intagran*/
+#mainNav .navbar-nav .nav-item .nav-link-img1{
+    margin-top: 0.2%;
+    left: 94%;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link-img1 img{
+    width: 96%;
+}
+
+#mainNav .navbar-brand{
+    color:#e6a756;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link{
+    color:rgba(255, 255, 255, 0.911);
+    font-weight:800;
+}
+
 #mainNav .navbar-nav .nav-item .nav-link-img{
-  margin-top: 0.4%;
-  right: 13%;
-  max-width: 100%;
-  height: auto;
-  position: absolute;
+    color:rgba(255, 255, 255, 0.911);
+    font-weight:800;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link-img1{
-  margin-top: 0.5%;
-  right: 15%;
-  max-width: 100%;
-  height: auto;
-  position: absolute;
+    color:rgba(255, 255, 255, 0.911);
+    font-weight:800;
 }
 
-#mainNav .navbar-nav .nav-item .nav-link {
-  color: rgba(255, 255, 255, 0.7);
-  font-weight: 800;
+#mainNav .navbar-nav .nav-item.active .nav-link{
+    color:#e6a756
 }
 
-#mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #e6a756;
+#mainNav .navbar-nav .nav-item.active .nav-link-img{
+    color:#e6a756
 }
 
-@media (min-width: 992px) {
-  #mainNav .navbar-nav .nav-item .nav-link {
-    font-size: 0.9rem;
-  }
-  #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: rgba(255, 255, 255, 0.4);
-  }
-  #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #e6a756;
-  }
+#mainNav .navbar-nav .nav-item.active .nav-link-img1{
+    color:#e6a756
+}
+
+@media (min-width:992px){
+    #mainNav .navbar-nav .nav-item .nav-link{
+        font-size:.9rem
+    }
+    #mainNav .navbar-nav .nav-item .nav-link:hover{
+        color:rgba(255,255,255,.4)
+    }
+    #mainNav .navbar-nav .nav-item .nav-link-img:hover{
+        color:rgba(255,255,255,.4)
+    }
+    #mainNav .navbar-nav .nav-item .nav-link-img1:hover{
+        color:rgba(255,255,255,.4)
+    }
+    #mainNav .navbar-nav .nav-item.active .nav-link:hover{
+        color:#e6a756
+    }
+    #mainNav .navbar-nav .nav-item.active .nav-link-img:hover{
+        color:#e6a756
+    }
+    #mainNav .navbar-nav .nav-item.active .nav-link-img1:hover{
+        color:#e6a756
+    }
 }
 
 .btn-xl {

@@ -48,7 +48,8 @@ p{
     margin-top:5rem;
     margin-bottom:5rem;
     text-transform:uppercase;
-    line-height:1;font-family:Raleway
+    line-height:1;
+    font-family:Raleway;
 }
 
 .site-heading .site-heading-upper{
@@ -87,24 +88,33 @@ p{
 
 .bg-faded{
     background-color:rgba(255,255,255,.85)}#mainNav{background-color:transparent;
-    font-family:Raleway
+    font-family:'Raleway';
 }
 
-#mainNav .navbar-nav .nav-item .nav-link-img{
-    margin-top: 0.4%;
-    right: 13%;    
+/*Facebock*/
+#mainNav .navbar-nav .nav-item .nav-link-img{   
+    left: 90%; 
     max-width: 100%;
     height: auto;
     position: absolute;
 }
 
+#mainNav .navbar-nav .nav-item .nav-link-img img{
+    width:100%;
+}
+
+
+/*intagran*/
 #mainNav .navbar-nav .nav-item .nav-link-img1{
-    margin-top: 0.5%;
-    right: 15%;
-    left: 90%;
+    margin-top: 0.2%;
+    left: 94%;
     max-width: 100%;
     height: auto;
     position: absolute;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link-img1 img{
+    width: 96%;
 }
 
 #mainNav .navbar-brand{
@@ -112,11 +122,29 @@ p{
 }
 
 #mainNav .navbar-nav .nav-item .nav-link{
-    color:rgba(255,255,255,.7);
+    color:rgba(255, 255, 255, 0.911);
+    font-weight:800;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link-img{
+    color:rgba(255, 255, 255, 0.911);
+    font-weight:800;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link-img1{
+    color:rgba(255, 255, 255, 0.911);
     font-weight:800;
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link{
+    color:#e6a756
+}
+
+#mainNav .navbar-nav .nav-item.active .nav-link-img{
+    color:#e6a756
+}
+
+#mainNav .navbar-nav .nav-item.active .nav-link-img1{
     color:#e6a756
 }
 
@@ -127,7 +155,19 @@ p{
     #mainNav .navbar-nav .nav-item .nav-link:hover{
         color:rgba(255,255,255,.4)
     }
+    #mainNav .navbar-nav .nav-item .nav-link-img:hover{
+        color:rgba(255,255,255,.4)
+    }
+    #mainNav .navbar-nav .nav-item .nav-link-img1:hover{
+        color:rgba(255,255,255,.4)
+    }
     #mainNav .navbar-nav .nav-item.active .nav-link:hover{
+        color:#e6a756
+    }
+    #mainNav .navbar-nav .nav-item.active .nav-link-img:hover{
+        color:#e6a756
+    }
+    #mainNav .navbar-nav .nav-item.active .nav-link-img1:hover{
         color:#e6a756
     }
 }
@@ -180,7 +220,7 @@ p{
 .cta .cta-inner{
     position:relative;padding:3rem;
     margin:.5rem;
-    background-color:rgba(255,255,255,.85)
+    background-color:rgba(255,255,255,.85);
 }
 
 .cta .cta-inner:before{
@@ -254,9 +294,69 @@ p{
 }
 
 .footer{
-    background-color:transparent
+    width: 100%;
+    height: auto;
+    background-color:transparent;
+    vertical-align: inherit;
+    padding: -80%;
 }
 
+.footer .intro-text-foot{
+    color:rgba(255, 255, 255, 0.603);
+    text-align: left;
+}
+
+.footer .text-right{
+    color:rgba(255, 255, 255, 0.603);
+    text-align: left;
+    margin: -140px 0 16px;
+}
+
+.footer .intro-img-local{
+    position: relative;
+    left: -2.5%;
+    width: 2%;
+    top: 55px;
+}
+
+.footer .intro-img-whats{
+    position: relative;
+    left: 85%;
+    top: -88px;
+}
+
+.footer .intro-img-fone{
+    position: relative;
+    left: 82.5%;
+    top: -40px;
+}
+
+.footer .intro-img-face{
+    position: relative;
+    left: 45%;
+    top: -130px;
+}
+
+.footer .intro-img-insta{
+    position: relative;
+    left: 45%;
+    top: -126px;
+    width: 3%;
+}
+
+.footer .intro-img-cloud{
+    position: relative;
+    left: 45%;
+    top: -130px;
+    width: 3.5%;
+}
+
+.footer .intro-img-local-3{
+    position: relative;
+    left: -2.5%;
+    width: 2%;
+    top: -40px;
+}
 
 /*Cor do texto abaixo da logo*/
 .text-primary{
