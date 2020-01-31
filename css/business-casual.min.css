@@ -99,22 +99,12 @@ p{
     position: absolute;
 }
 
-#mainNav .navbar-nav .nav-item .nav-link-img img{
-    width:100%;
-}
-
-
 /*intagran*/
 #mainNav .navbar-nav .nav-item .nav-link-img1{
-    margin-top: 0.2%;
     left: 94%;
     max-width: 100%;
     height: auto;
     position: absolute;
-}
-
-#mainNav .navbar-nav .nav-item .nav-link-img1 img{
-    width: 96%;
 }
 
 #mainNav .navbar-brand{
@@ -291,71 +281,6 @@ p{
 
 .address strong{
     font-size:1.2rem
-}
-
-.footer{
-    width: 100%;
-    height: auto;
-    background-color:rgba(255,255,255,.4);
-    vertical-align: inherit;
-    padding: -80%;
-}
-
-.footer .intro-text-foot{
-    color:rgba(255, 255, 255, 0.603);
-    text-align: left;
-}
-
-.footer .text-right{
-    color:rgba(255, 255, 255, 0.603);
-    text-align: left;
-    margin: -140px 0 16px;
-}
-
-.footer .intro-img-local{
-    position: relative;
-    left: -2.5%;
-    width: 2%;
-    top: 55px;
-}
-
-.footer .intro-img-whats{
-    position: relative;
-    left: 85%;
-    top: -88px;
-}
-
-.footer .intro-img-fone{
-    position: relative;
-    left: 82.5%;
-    top: -40px;
-}
-
-.footer .intro-img-face{
-    position: relative;
-    left: 45%;
-    top: -130px;
-}
-
-.footer .intro-img-insta{
-    position: relative;
-    left: 45%;
-    top: -126px;
-    width: 3%;
-}
-
-.footer .intro-img-cloud{
-    position: relative;
-    left: 45%;
-    top: -130px;
-    width: 3.5%;
-}
-
-.footer .intro-img-local1{
-    position: relative;
-    left: -2.5%;
-    width: 2%;
-    top: -40px;
 }
 
 /*Cor do texto abaixo da logo*/

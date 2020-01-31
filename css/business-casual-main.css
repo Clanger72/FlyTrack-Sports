@@ -10,6 +10,18 @@
     background-size: cover; 
 }
 
+.page-footer{
+    background-color:rgba(255, 255, 255, 0.753);
+}
+
+.page-footer .logo-footer {
+    width: 40%;
+}
+
+.page-footer a:hover {
+    color: #e6a756!important;
+}
+
 .pulse {
     animation: pulse 0.6s infinite;
     margin: 0 auto;

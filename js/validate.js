@@ -20,6 +20,15 @@ $(window).resize(function() {
     }
 });
 
+$(function(){
+    var tamanhoJanela = $(window).width();
+    if (tamanhoJanela >= 768 && tamanhoJanela <= 1024) {
+        $(".remove").remove();
+        $('.nav-link-img').remove();
+        $(".nav-link-img1").remove();
+    }
+});;
+
 //validars
 $(function(){
     $(".photo").mouseenter(function(){
