@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+  
+<head> 
+    <meta charset="utf-8" /> 
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0" /> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" /> 
+    <title>Loader Demo</title> 
+    <style> 
+       .wave {
+        margin-top:50px;
+        margin-left:-5%;
+        position: relative;
+        height: 70px;
+        width: 110%;
+        background: blue;
+        transform: rotate(180deg);
+        overflow:none;
+        }
+        .wave:before {
+        content: "";
+        display: block;
+        position: absolute;
+        border-radius: 100% 50%;
+        width: 60%;
+        height: 50px;
+        background-color: white;
+        right: -5px;
+        top: 46px;
+            border-top: 5px solid gold;
+        }
+        .wave:after {
+        content: "";
+        display: block;
+        position: absolute;
+        border-radius: 100% 50%;
+        width: 50%;
+        height: 40px;
+        background-color: blue;
+        left: -2%;
+        top: 40px;
+        border-bottom: 5px solid gold;
+        }
+    </style> 
+</head> 
+  
+<body> 
+    <div class="wave"></div> 
+</body> 
+  
+</html> 

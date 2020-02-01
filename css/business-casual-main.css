@@ -10,8 +10,12 @@
     background-size: cover; 
 }
 
+.display-none {
+    display: none;
+}
+
 .page-footer{
-    background-color:rgba(255, 255, 255, 0.753);
+    background-image: linear-gradient(130deg, #fe00005d, #e6a856d5 89%);
 }
 
 .page-footer .logo-footer {
@@ -22,6 +26,32 @@
     color: #e6a756!important;
 }
 
+.page-footer .logo {
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+}
+
+/*.page-section .site-heading .hide {
+    display: none;
+}*/
+
+
+.page-footer .text-logo-footer {
+    color: #fcfcfc;
+    font-size: 130%;
+}
+
+.page-footer p {
+    color: #030303;
+}
+
+.page-footer h6 {
+    color: #030303e0;
+}
+
 .pulse {
     animation: pulse 0.6s infinite;
     margin: 0 auto;
@@ -30,27 +60,28 @@
     animation-direction: alternate;
     -webkit-animation-name: pulse;
     animation-name: pulse;
+    background-color: linear-gradient(130deg, #fe00005d, #e6a856d5 89%);
     }
 
     @-webkit-keyframes pulse {
         0% {
             -webkit-transform: scale(1);
-            -webkit-filter: brightness(100%);
+            -webkit-filter: brightness(50%);
         }
         100% {
             -webkit-transform: scale(1.1);
-            -webkit-filter: brightness(200%);
+            -webkit-filter: brightness(100%);
         }
     }
 
     @keyframes pulse {
         0% {
             transform: scale(1);
-            filter: brightness(100%);
+            filter: brightness(50%);
         }
         100% {
             transform: scale(1.1);
-            filter: brightness(200%);
+            filter: brightness(100%);
         }
     }
 

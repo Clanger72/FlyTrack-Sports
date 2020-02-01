@@ -32,14 +32,15 @@
 
 <body>
 
-  <video autoplay loop muted src="img/salto1.mp4" class="bg_video">
-    <source src="img/salto1.mp4" type="video/mp4">
+  <video autoplay loop muted src="video/salto1.mp4" class="bg_video">
+    <source src="video/salto1.mp4" type="video/mp4">
+    <source src="video/skate.mp4" type="video/mp4">
   </video>
   
     <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="index.html"><img class='pulse'src="img/logo1.jpg" alt=""></a>
+  <nav class="navbar nav-ocult navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+    <div class="container" id="display-control">
+      <a class="navbar-brand pulse text-uppercase text-expanded font-weight-bold d-lg-none" href="index.html"><img src="img/logo1.jpg" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -71,24 +72,38 @@
           <li class="nav-item px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="store.html">Contato</a>
           </li>
-          <li class="nav-item d-none d-md-block">
-            <a class="nav-link-img img-fluid" href="https://www.facebook.com/Saltoduploresende/" target="_blank"><img class="photo" src="img-new/facebook-32.png" alt=""></a>
-          </li>
-          <li class="nav-item d-none d-md-block">
-            <a class="nav-link-img1 img-fluid" href="https://www.instagram.com/flytrackskatepark/?hl=pt-br" target="_blank"><img class="photo1" src="img-new/instagram-32.png" alt=""></a>
-          </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  
+  <nav class="navbar display-control navbar-expand navbar-dark d-md-block py-lg-4" id="mainNav">
+    <div class="container">     
+        <ul class="text-center navbar-nav mx-auto">
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="skate.html"><img class="img-fluid" src="img-new/facebook-32.png" alt=""></a>
+          </li>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="skydive.html"><img class="img-fluid" src="img-new/instagram-32.png" alt=""></a>
+          </li>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="parkour.html"><img class="img-fluid" src="img-new/youtube-32.png" alt=""></a>
+          </li>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="slackline.html"><img class="img-fluid" src="img-new/whatsapp-32.png" alt=""></a>
+          </li>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="store.html"> <img class="img-fluid" src="img-new/ponto-preenchido-de-espaco-reservado.png" alt=""></a>
+          </li>
+        </ul>
+    </div>
+  </nav>
 
   <section class="page-section clearfix">
     <div class="container">
       <div class="intro">
         <h1 class="site-heading text-center text-white d-none d-lg-block"><br><br>
-          <a href="index.html"><img class="pulse img-fluid" src="img/logo1.jpg" alt=""></a></span>
+          <a href="index.html"><img class="pulse hide img-fluid" id="logo-load" src="img/logo1.jpg" alt=""></a></span>
           <span class="site-heading-upper text-primary mb-3"><p class='pulse'>Centro de Esportes</p>
         </h1>
       </div>
@@ -110,7 +125,7 @@
           <p class="mb-3">E também cursos para quem....
             </p>
           <div class="intro-button mx-auto">
-            <a class="btn btn-primary btn-xl" href="store.html">Saiba mais!</a>
+            <a class="btn btn-primary btn-xl" href="skydive.html">Saiba mais!</a>
           </div>
         </div>
       </div>
@@ -131,7 +146,7 @@
           <p class="mb-3">E também cursos para quem....
             </p>
           <div class="intro-button mx-auto">
-            <a class="btn btn-primary btn-xl" href="store.html">Saiba mais!</a>
+            <a class="btn btn-primary btn-xl" href="skate.html">Saiba mais!</a>
           </div>
         </div>
       </div>
@@ -152,7 +167,7 @@
           <p class="mb-3">E também cursos para quem....
             </p>
           <div class="intro-button mx-auto">
-            <a class="btn btn-primary btn-xl" href="store.html">Saiba mais!</a>
+            <a class="btn btn-primary btn-xl" href="escalada.html">Saiba mais!</a>
           </div>
         </div>
       </div>
@@ -173,7 +188,7 @@
           <p class="mb-3">E também cursos para quem....
             </p>
           <div class="intro-button mx-auto">
-            <a class="btn btn-primary btn-xl" href="store.html">Saiba mais!</a>
+            <a class="btn btn-primary btn-xl" href="parkour.html">Saiba mais!</a>
           </div>
         </div>
       </div>
@@ -194,7 +209,7 @@
           <p class="mb-3">E também cursos para quem....
             </p>
           <div class="intro-button mx-auto">
-            <a class="btn btn-primary btn-xl" href="store.html">Saiba mais!</a>
+            <a class="btn btn-primary btn-xl" href="slackline.html">Saiba mais!</a>
           </div>
         </div>
       </div>
@@ -229,9 +244,9 @@
 
       <!-- Grid column -->
       <div class="remove col-md-2 col-lg-3 col-xl-3 mx-auto mt-3">
-        <img src="img/logo1.jpg" alt="Logo da Mirror Fashion">
-        <p class="text-primary text-center">Centro de Esportes Radicais</p>
-        <p class="d-none d-md-block">
+        <img class="logo" src="img/logo1.jpg" alt="Logo da Mirror Fashion">
+        <p class="text-logo-footer text-center">Centro de Esportes</p>
+        <p class="font-weight-bold d-none d-md-block">
           <img class="photo3 img-fluid" src="img-new/casa.png" alt="">
           <i class="fas fa-home mr-3"></i> R. Carmela Bruno, 156 - Elite Resende RJ</p>
       </div>
@@ -283,10 +298,10 @@
        <!-- Grid column -->
        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
          <h6 class="text-uppercase mb-4 font-weight-bold">Contato</h6>
-         <p>
+         <p class="font-weight-bold">
            <img class="photo3 img-fluid" src="img-new/enviar.png" alt="">
            <i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
-         <p>
+         <p class="font-weight-bold">
            <img class="photo3 img-fluid" src="img-new/chamada-telefonica.png" alt="">
            <i class="fas fa-phone mr-3"></i>(24) 99290-6967</p>
        </div>

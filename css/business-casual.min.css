@@ -111,6 +111,12 @@ p{
     color:#e6a756;
 }
 
+
+#mainNav .navbar-brand img{
+    padding-bottom:3%;
+} 
+
+
 #mainNav .navbar-nav .nav-item .nav-link{
     color:rgba(255, 255, 255, 0.911);
     font-weight:800;
@@ -202,9 +208,9 @@ p{
 
 /*Aqui é incluida a cor das barras coloridas no corpo do site*/
 .cta{
-    padding-top:5rem;
-    padding-bottom:5rem;
-    background-color:rgba(230,167,86,.9)
+    padding-top:3rem;
+    padding-bottom:3rem;
+    background-image: linear-gradient(130deg, #fe00005d, #e6a856d5 80%);
 }
 
 .cta .cta-inner{
