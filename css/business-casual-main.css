@@ -10,8 +10,26 @@
     background-size: cover; 
 }
 
-.display-none {
-    display: none;
+.logo-load {
+    position: relative;
+    animation: mymove 5s;
+    animation-delay: 0s;
+  }
+  
+  @keyframes mymove {
+    from {top: -300px;}
+    to {top: 0px;}
+  }
+
+.logo-midia {
+position: relative;
+animation: mymove 2s;
+animation-delay: 0s;
+}
+
+@keyframes mymove {
+from {top: -300px;}
+to {top: 0px;}
 }
 
 .page-footer{
@@ -34,10 +52,9 @@
     -ms-filter: blur(1px);
 }
 
-/*.page-section .site-heading .hide {
-    display: none;
-}*/
-
+.nav-ocult {
+    z-index: 2;
+}
 
 .page-footer .text-logo-footer {
     color: #fcfcfc;
@@ -83,5 +100,3 @@
             filter: brightness(100%);
         }
     }
-
-
